@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="BoardModel.c" />
     <ClCompile Include="BoardRenderer.c" />
+    <ClCompile Include="InputModel.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="SpriteRenderer.c" />
   </ItemGroup>
@@ -136,6 +137,7 @@
     <ClInclude Include="Board.h" />
     <ClInclude Include="BoardModel.h" />
     <ClInclude Include="BoardRenderer.h" />
+    <ClInclude Include="InputModel.h" />
     <ClInclude Include="SpriteRenderer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
