@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Projet",
+    "\\Projet\\Projet"
   ],
+  "SelectedNode": "\\Projet\\Projet\\SpriteRenderer.c",
   "PreviewInSolutionExplorer": false
 }

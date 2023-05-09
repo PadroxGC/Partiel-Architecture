@@ -127,8 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BoardModel.c" />
+    <ClCompile Include="BoardRenderer.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="SpriteRenderer.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="BoardModel.h" />
+    <ClInclude Include="BoardRenderer.h" />
+    <ClInclude Include="SpriteRenderer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -28,7 +28,27 @@
       <Filter>Fichiers sources\Controllers</Filter>
     </ClCompile>
     <ClCompile Include="SpriteRenderer.c">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Views</Filter>
     </ClCompile>
+    <ClCompile Include="BoardRenderer.c">
+      <Filter>Fichiers sources\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardModel.c">
+      <Filter>Fichiers sources\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardRenderer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardModel.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
